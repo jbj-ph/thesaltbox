@@ -1,1 +1,15 @@
-/* Minimal Poole styles */ body { font-family: sans-serif; margin: 0; padding: 0; }
+
+/* poole.css - simplified for demo */
+body {
+  font-family: Georgia, serif;
+  color: #111;
+  line-height: 1.5;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 28rem;
+  padding: 2rem;
+  margin: 0 auto;
+}

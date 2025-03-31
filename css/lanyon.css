@@ -1,4 +1,22 @@
-/* Minimal Lanyon sidebar styles */
-.sidebar { position: fixed; left: 0; top: 0; width: 200px; background: #f4f4f4; height: 100vh; padding: 20px; }
-.wrap { margin-left: 220px; padding: 20px; }
-.sidebar-toggle { display: none; }
+
+/* lanyon.css - simplified for demo */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18rem;
+  height: 100%;
+  background-color: #f5f5f5;
+  padding: 2rem;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+.wrap {
+  margin-left: 20rem;
+}
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
