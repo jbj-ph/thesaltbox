@@ -1,1 +1,32 @@
-<!-- Placeholder for default.html in _layouts -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/poole.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/lanyon.css">
+  </head>
+  <body class="theme-base-08">
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-item">
+        <p>{{ site.title }}</p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          </h3>
+        </div>
+      </div>
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+  </body>
+</html>
