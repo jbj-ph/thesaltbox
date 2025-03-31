@@ -1,1 +1,4 @@
-/* Lanyon theme CSS placeholder with sidebar */
+/* Minimal Lanyon sidebar styles */
+.sidebar { position: fixed; left: 0; top: 0; width: 200px; background: #f4f4f4; height: 100vh; padding: 20px; }
+.wrap { margin-left: 220px; padding: 20px; }
+.sidebar-toggle { display: none; }
