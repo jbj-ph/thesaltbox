@@ -1,4 +1,8 @@
-.sidebar-checkbox { display: none; }
+
+.sidebar-checkbox {
+  display: none;
+}
+
 .sidebar-toggle {
   position: fixed;
   top: 1rem;
@@ -9,11 +13,13 @@
   height: 2rem;
   cursor: pointer;
 }
+
 .sidebar-toggle::before {
   content: '☰';
   font-size: 1.5rem;
   color: #333;
 }
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -23,16 +29,28 @@
   background: #f4f4f4;
   transition: left 0.3s ease;
   z-index: 2;
-  padding: 1em;
+  padding: 1.5rem;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
+
 .sidebar-checkbox:checked ~ .sidebar {
   left: 0;
 }
+
 .wrap {
   margin-left: 0;
   transition: margin-left 0.3s ease;
 }
+
 .sidebar-checkbox:checked ~ .wrap {
   margin-left: 15em;
+}
+
+.masthead {
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.masthead-title {
+  font-size: 1.5rem;
 }

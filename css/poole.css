@@ -1,1 +1,25 @@
-body { font-family: Georgia, serif; margin: 0; padding: 0; }
+
+body {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #111;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+h1, h2, h3 {
+  margin-top: 1rem;
+}
+a {
+  color: #268bd2;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
