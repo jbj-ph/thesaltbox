@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-
-    <!-- Lanyon + Poole CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/poole.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/lanyon.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-  </head>
-
+  {% include head.html %}
   <body class="theme-base-08">
     <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
@@ -24,7 +14,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           </h3>
         </div>
       </div>
