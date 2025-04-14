@@ -17,3 +17,40 @@ permalink: /quick-links/
     
   </ul>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const tags = new Set();
+    const listItems = document.querySelectorAll("#quick-links li");
+
+    // Gather all tags
+    listItems.forEach((li) => {
+      const tagList = li.getAttribute("data-tags").split(" ");
+      tagList.forEach((tag) => tags.add(tag));
+    });
+
+    // Create tag filter UI
+    const filter = document.getElementById("tag-filter");
+    filter.innerHTML = '<strong>Filter by tag:</strong> ';
+    tags.forEach((tag) => {
+      const btn = document.createElement("button");
+      btn.textContent = `#${tag}`;
+      btn.className = "tag-button";
+      btn.onclick = () => {
+        listItems.forEach((li) => {
+          const liTags = li.getAttribute("data-tags").split(" ");
+          li.style.display = liTags.includes(tag) ? "" : "none";
+        });
+      };
+      filter.appendChild(btn);
+    });
+
+    // Add "Show all" button
+    const reset = document.createElement("button");
+    reset.textContent = "Show all";
+    reset.className = "tag-button";
+    reset.onclick = () => {
+      listItems.forEach((li) => (li.style.display = ""));
+    };
+    filter.appendChild(reset);
+  });
+</script>
