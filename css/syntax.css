@@ -28,3 +28,21 @@ pre, code { background: #f5f2f0; font-family: monospace; }
   border-radius: 0.3em;
   text-transform: lowercase;
 }
+#tag-filter {
+  margin-bottom: 1em;
+}
+
+.tag-button {
+  background-color: #eee;
+  border: none;
+  color: #333;
+  margin: 0 0.3em 0.3em 0;
+  padding: 0.4em 0.6em;
+  border-radius: 0.3em;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.tag-button:hover {
+  background-color: #ddd;
+}
