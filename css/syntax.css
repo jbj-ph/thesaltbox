@@ -19,15 +19,17 @@ pre, code { background: #f5f2f0; font-family: monospace; }
 
 .tag {
   display: inline-block;
-  background-color: #eee;
-  color: #555;
+  background-color: #f0f0f0;
+  color: #444;
   font-size: 0.75rem;
   font-weight: 600;
-  padding: 0.2em 0.5em;
-  margin-top: 0.3em;
-  border-radius: 0.3em;
+  padding: 0.2em 0.6em;
+  margin: 0.2em 0.3em 0 0;
+  border-radius: 0.4em;
   text-transform: lowercase;
+  white-space: nowrap;
 }
+
 #tag-filter {
   margin-bottom: 1em;
 }
