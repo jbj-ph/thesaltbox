@@ -1,1 +1,18 @@
 pre, code { background: #f5f2f0; font-family: monospace; }
+.sidebar-nav {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.sidebar-nav-item {
+  display: block;
+  color: #268bd2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar-nav-item:hover {
+  text-decoration: underline;
+}
