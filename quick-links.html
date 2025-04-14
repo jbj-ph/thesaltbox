@@ -3,20 +3,23 @@ layout: page
 title: Quick Links
 permalink: /quick-links/
 ---
+<div id="tag-filter"></div>
 
-<div class="quick-links">
-  <ul>
-   <li>
-  <p>
+<ul id="quick-links">
+  <li data-tags="ai education">
+    <p><strong>2025-04-14</strong></p>
+     <p>
     <strong><a href="https://www.educause.edu/...">2025 Students and Technology Report</a></strong>
   </p>
-  <p>Educause's survey of student technology use in higher education.</p>
-  <span class="tag">academic_technology</span>
-</li>
+    <p>Educause's survey of student technology use in higher education.</p>
+    <div class="tags">
+      <span class="tag" data-tag="ai">academic_technology</span>
+      <span class="tag" data-tag="education">higher education</span>
+    </div>
+  </li>
+  <!-- repeat li blocks -->
+</ul>
 
-    
-  </ul>
-</div>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const tags = new Set();
