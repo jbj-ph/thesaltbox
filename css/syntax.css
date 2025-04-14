@@ -16,3 +16,15 @@ pre, code { background: #f5f2f0; font-family: monospace; }
 .sidebar-nav-item:hover {
   text-decoration: underline;
 }
+
+.tag {
+  display: inline-block;
+  background-color: #eee;
+  color: #555;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2em 0.5em;
+  margin-top: 0.3em;
+  border-radius: 0.3em;
+  text-transform: lowercase;
+}
