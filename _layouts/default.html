@@ -5,10 +5,15 @@
     <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" />
 
     <div class="sidebar" id="sidebar">
-      <div class="sidebar-item">
-        <p>{{ site.title }}</p>
-      </div>
-    </div>
+  <div class="sidebar-item">
+    <p>{{ site.title }}</p>
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/">Home</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/quick-links/">Quick Links</a>
+    </nav>
+  </div>
+</div>
+
 
     <div class="wrap">
       <div class="masthead">
