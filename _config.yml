@@ -1,6 +1,6 @@
 
 title: The Salt-Box
-url: "https://jbj-ph.github.io"
-baseurl: "/thesaltbox"
+url: "https://jbjprojects.com"
+baseurl: ""
 permalink: /:categories/:year/:month/:day/:title/
 
