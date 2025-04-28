@@ -11,7 +11,7 @@ Criticism, Interviews, and Columns:
 Interviews:
 
 
-* "The Second Coming of Steampunk: An Interview with Ann and Jeff Vandermeer." _PopMatters (10 Sept. 2008): [http://www.popmatters.com/feature/the-second-coming-of-steampunk-an-interview-with-ann-and-jeff-vandermeer/](http://www.popmatters.com/feature/the-second-coming-of-steampunk-an-interview-with-ann-and-jeff-vandermeer/)
+* "The Second Coming of Steampunk: An Interview with Ann and Jeff Vandermeer." _PopMatters_ (10 Sept. 2008): [http://www.popmatters.com/feature/the-second-coming-of-steampunk-an-interview-with-ann-and-jeff-vandermeer/](http://www.popmatters.com/feature/the-second-coming-of-steampunk-an-interview-with-ann-and-jeff-vandermeer/)
 
 * "An Interview with Kate Summerscale." _Bookslut_ (September 2008): [http://www.bookslut.com/features/2008_09_013387.php](http://www.bookslut.com/features/2008_09_013387.php)
 
@@ -54,7 +54,7 @@ Columns:
 
 Reviews:
 
-* "Collage as Constant Restart: A Review of _Practice for Life_." _ProfHacker_ (8 September 2016): [http://www.chronicle.com/blogs/profhacker/college-as-constant-restart-a-review-of-practice-for-life/62769](http://www.chronicle.com/blogs/profhacker/college-as-constant-restart-a-review-of-practice-for-life/62769)
+* "College as Constant Restart: A Review of _Practice for Life_." _ProfHacker_ (8 September 2016): [http://www.chronicle.com/blogs/profhacker/college-as-constant-restart-a-review-of-practice-for-life/62769](http://www.chronicle.com/blogs/profhacker/college-as-constant-restart-a-review-of-practice-for-life/62769)
 
 * "Doing Deep Work in Distracted Times: Cal Newport's _Deep Work_." _ProfHacker_ (12 January 2016): [http://www.chronicle.com/blogs/profhacker/doing-focused-work-in-distracted-times-cal-newports-deep-work/61497](http://www.chronicle.com/blogs/profhacker/doing-focused-work-in-distracted-times-cal-newports-deep-work/61497)
 
