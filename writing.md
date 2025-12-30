@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Online Writing
 permalink: /writing/
 ---
