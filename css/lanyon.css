@@ -55,3 +55,97 @@
 .masthead-title {
   font-size: 1.5rem;
 }
+
+/* Overlay backdrop for mobile when sidebar is open */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.sidebar-checkbox:checked ~ .sidebar-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  /* Make sidebar full-width on mobile */
+  .sidebar {
+    left: -100%;
+    width: 85%;
+    max-width: 300px;
+    z-index: 1000;
+  }
+
+  .sidebar-checkbox:checked ~ .sidebar {
+    left: 0;
+  }
+
+  /* Don't push content on mobile - overlay instead */
+  .sidebar-checkbox:checked ~ .wrap {
+    margin-left: 0;
+  }
+
+  /* Larger touch target for hamburger on mobile */
+  .sidebar-toggle {
+    width: 44px;
+    height: 44px;
+    top: 0.5rem;
+    left: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar-toggle::before {
+    font-size: 1.75rem;
+  }
+
+  /* Ensure navigation items are touch-friendly */
+  .sidebar-nav-item {
+    padding: 0.75rem 0;
+    font-size: 1.1rem;
+  }
+
+  /* Better spacing for mobile */
+  .masthead {
+    padding: 1rem 0;
+  }
+
+  .masthead-title {
+    font-size: 1.25rem;
+    margin-left: 60px; /* Make room for hamburger menu */
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .sidebar {
+    width: 90%;
+    max-width: none;
+  }
+
+  .sidebar-toggle {
+    top: 0.25rem;
+    left: 0.25rem;
+  }
+
+  .masthead-title {
+    font-size: 1.1rem;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
