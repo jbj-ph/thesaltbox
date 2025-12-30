@@ -5,10 +5,15 @@ title: Welcome to The Salt-Box
 
 {% for post in site.posts %}
   <article class="post-preview">
-   <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-    <div class="post-content">
-      {{ post.content }}
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+    </p>
+    <div class="post-excerpt">
+      {{ post.excerpt }}
     </div>
+    <p class="read-more">
+      <a href="{{ post.url | relative_url }}" aria-label="Read full post: {{ post.title }}">Read more →</a>
+    </p>
   </article>
 {% endfor %}

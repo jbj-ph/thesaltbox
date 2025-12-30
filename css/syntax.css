@@ -109,10 +109,52 @@ pre, code { background: #f5f2f0; font-family: monospace; }
   border-bottom: none;
 }
 
+.post-preview h2 {
+  margin-bottom: 0.5rem;
+}
+
+.post-preview h2 a {
+  color: #111;
+  transition: color 0.2s ease;
+}
+
+.post-preview h2 a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+
 .post-meta {
   color: #666;
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
+}
+
+.post-excerpt {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.read-more {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.read-more a {
+  color: #268bd2;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.read-more a:hover {
+  color: #1e6fa0;
+  transform: translateX(4px);
+}
+
+.read-more a:focus {
+  outline: 2px solid #268bd2;
+  outline-offset: 2px;
 }
 
 /* Mobile responsiveness for tags and buttons */
