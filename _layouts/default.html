@@ -19,6 +19,13 @@
           <a class="sidebar-nav-item{% if page.url == '/writing/' %} active{% endif %}" href="{{ site.baseurl }}/writing/" {% if page.url == '/writing/' %}aria-current="page"{% endif %}>Writing</a>
           <a class="sidebar-nav-item{% if page.url == '/about/' %} active{% endif %}" href="{{ site.baseurl }}/about/" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a>
         </nav>
+
+        <div class="sidebar-social">
+          <p class="sidebar-social-label">Connect</p>
+          <a class="sidebar-social-link" href="https://www.linkedin.com/in/jbjph/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+          <a class="sidebar-social-link" href="https://instagram.com/jbj_ph" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile">Instagram</a>
+          <a class="sidebar-social-link" href="{{ '/feed.xml' | relative_url }}" aria-label="RSS feed">RSS Feed</a>
+        </div>
       </div>
     </aside>
 

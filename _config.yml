@@ -1,6 +1,12 @@
 
 title: The Salt-Box
+description: "Writing on teaching, learning, technology, and higher education"
+author: Jason B. Jones
 url: "https://jbjprojects.com"
 baseurl: ""
 permalink: /:categories/:year/:month/:day/:title/
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
 

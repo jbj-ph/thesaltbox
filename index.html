@@ -3,7 +3,7 @@ layout: default
 title: Welcome to The Salt-Box
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   <article class="post-preview">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     <p class="post-meta">
@@ -17,3 +17,34 @@ title: Welcome to The Salt-Box
     </p>
   </article>
 {% endfor %}
+
+<!-- Pagination controls -->
+{% if paginator.total_pages > 1 %}
+<nav class="pagination" role="navigation" aria-label="Pagination">
+  <div class="pagination-links">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link pagination-prev" aria-label="Previous page">
+        ← Newer posts
+      </a>
+    {% else %}
+      <span class="pagination-link pagination-prev disabled" aria-hidden="true">
+        ← Newer posts
+      </span>
+    {% endif %}
+
+    <span class="pagination-info">
+      Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-link pagination-next" aria-label="Next page">
+        Older posts →
+      </a>
+    {% else %}
+      <span class="pagination-link pagination-next disabled" aria-hidden="true">
+        Older posts →
+      </span>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}
