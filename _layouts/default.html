@@ -2,40 +2,68 @@
 <html lang="en">
   {% include head.html %}
   <body class="theme-base-08">
-    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" />
+    <!-- Skip navigation link for keyboard users -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" aria-hidden="true" />
 
     <!-- Overlay backdrop for mobile -->
-    <label for="sidebar-checkbox" class="sidebar-overlay"></label>
+    <label for="sidebar-checkbox" class="sidebar-overlay" aria-label="Close navigation menu"></label>
 
-    <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.title }}</p>
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}/">Home</a>
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}/quick-links/">Quick Links</a>
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}/writing/">Writing</a>
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}/about/">About</a>
-    </nav>
-  </div>
-</div>
-
+    <aside class="sidebar" id="sidebar" role="navigation" aria-label="Main navigation">
+      <div class="sidebar-item">
+        <p>{{ site.title }}</p>
+        <nav class="sidebar-nav">
+          <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}/" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+          <a class="sidebar-nav-item{% if page.url == '/quick-links/' %} active{% endif %}" href="{{ site.baseurl }}/quick-links/" {% if page.url == '/quick-links/' %}aria-current="page"{% endif %}>Quick Links</a>
+          <a class="sidebar-nav-item{% if page.url == '/writing/' %} active{% endif %}" href="{{ site.baseurl }}/writing/" {% if page.url == '/writing/' %}aria-current="page"{% endif %}>Writing</a>
+          <a class="sidebar-nav-item{% if page.url == '/about/' %} active{% endif %}" href="{{ site.baseurl }}/about/" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a>
+        </nav>
+      </div>
+    </aside>
 
     <div class="wrap">
-      <div class="masthead">
+      <header class="masthead">
         <div class="container">
           <h3 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           </h3>
         </div>
-      </div>
+      </header>
 
-     <div class="container">
-  <div class="content">
-    {{ content }}
-  </div>
-</div>
+      <main id="main-content" class="container">
+        <div class="content">
+          {{ content }}
+        </div>
+      </main>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <label for="sidebar-checkbox" class="sidebar-toggle" aria-label="Toggle navigation menu" role="button" tabindex="0"></label>
+
+    <script>
+      // Keyboard support for hamburger menu
+      document.addEventListener('DOMContentLoaded', function() {
+        const toggle = document.querySelector('.sidebar-toggle');
+        const checkbox = document.getElementById('sidebar-checkbox');
+
+        toggle.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            checkbox.checked = !checkbox.checked;
+          }
+          // Close sidebar with Escape key
+          if (e.key === 'Escape' && checkbox.checked) {
+            checkbox.checked = false;
+          }
+        });
+
+        // Close sidebar with Escape key anywhere
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape' && checkbox.checked) {
+            checkbox.checked = false;
+          }
+        });
+      });
+    </script>
   </body>
 </html>

@@ -11,10 +11,27 @@ pre, code { background: #f5f2f0; font-family: monospace; }
   color: #268bd2;
   text-decoration: none;
   font-weight: bold;
+  padding: 0.5rem 0;
+  transition: all 0.2s ease;
 }
 
 .sidebar-nav-item:hover {
   text-decoration: underline;
+}
+
+/* Active navigation state */
+.sidebar-nav-item.active {
+  color: #111;
+  border-left: 3px solid #268bd2;
+  padding-left: 0.75rem;
+  margin-left: -0.75rem;
+  background: rgba(38, 139, 210, 0.1);
+}
+
+/* Focus styles for keyboard navigation */
+.sidebar-nav-item:focus {
+  outline: 2px solid #268bd2;
+  outline-offset: 2px;
 }
 
 .tag {
@@ -57,6 +74,28 @@ pre, code { background: #f5f2f0; font-family: monospace; }
 
 .tag-button:hover {
   background-color: #ddd;
+}
+
+.tag-button:focus {
+  outline: 2px solid #268bd2;
+  outline-offset: 2px;
+}
+
+/* Active state for filter buttons */
+.tag-button[aria-pressed="true"] {
+  background-color: #268bd2;
+  color: white;
+  font-weight: bold;
+}
+
+/* Reset button styling */
+.tag-button-reset {
+  background-color: #268bd2;
+  color: white;
+}
+
+.tag-button-reset:hover {
+  background-color: #1e6fa0;
 }
 
 /* Post preview styling for better mobile readability */

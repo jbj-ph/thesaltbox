@@ -23,6 +23,19 @@ a {
 a:hover {
   text-decoration: underline;
 }
+a:focus {
+  outline: 2px solid #268bd2;
+  outline-offset: 2px;
+}
+
+/* Focus styles for better keyboard navigation */
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #268bd2;
+  outline-offset: 2px;
+}
 .content {
   max-width: 50rem;
   margin: 0 auto;
