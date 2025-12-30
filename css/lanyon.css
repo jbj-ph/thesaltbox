@@ -110,6 +110,12 @@
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+  /* Extra hiding for skip link on mobile */
+  .skip-link:not(:focus) {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
   /* Make sidebar full-width on mobile */
   .sidebar {
     left: -100%;
