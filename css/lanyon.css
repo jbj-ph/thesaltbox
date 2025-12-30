@@ -1,18 +1,28 @@
 
-/* Skip link for accessibility */
+/* Skip link for accessibility - hidden until focused */
 .skip-link {
   position: absolute;
-  top: -40px;
-  left: 0;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: 10000;
   background: #268bd2;
   color: white;
   padding: 8px;
   text-decoration: none;
-  z-index: 10000;
 }
 
 .skip-link:focus {
-  top: 0;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .sidebar-checkbox {
