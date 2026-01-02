@@ -8,7 +8,7 @@ permalink: /quick-links/
 <ul id="quick-links">
   
 <li data-tags="innovation academic_technologies">
-  <p><strong>2025-05-05</strong></p>
+  <p><strong><time datetime="2025-05-05">May 5, 2025</time></strong></p>
   <p><strong><a href="https://foundhistory.org/2025/04/innovation-as-habit-practicing-looking-forward-in-a-backward-looking-business/">Innovation as Habit: Practicing looking forward in a backward-looking business</a></strong></p>
   <p>Tom Scheinfeldt offers some strategies for cultivating innovation. Really love the critique of overlying on data: "Data is important and can tell us a lot if we listen to it. But the data available to us contains infinite silences, and those silences, what the data doesn’t say, are as rich and robust as the stories it tells. Because there is infinitely more data in the world than we can ever collect in a spreadsheet, we need to be wary of listening too much to our spreadsheets."</p>
   <div class="tags">
@@ -19,7 +19,7 @@ permalink: /quick-links/
   </div>
 </li>  
 <li data-tags="AI governance">
-  <p><strong>2025-04-30</strong></p>
+  <p><strong><time datetime="2025-04-30">April 30, 2025</time></strong></p>
   <p><strong><a href="https://knightcolumbia.org/content/ai-as-normal-technology">AI as Normal Technology</a></strong></p>
   <p>An argument for treating AI as a technological tool, even a very important one, but not as a different species.</p>
   <div class="tags">
@@ -29,7 +29,7 @@ permalink: /quick-links/
 </li>
 
 <li data-tags="higher_ed labor management academic_technologies">
-  <p><strong>2025-04-28</strong></p>
+  <p><strong><time datetime="2025-04-28">April 28, 2025</time></strong></p>
   <p><strong><a href="https://www.educause.edu/content/2025/teaching-and-learning-workforce-in-higher-education">2025 Educause Teaching & Learning Workforce in Higher Education</a></strong></p>
   <p>Educause’s big survey of teaching & learning professionals.</p>
   <div class="tags">
@@ -41,7 +41,7 @@ permalink: /quick-links/
 </li>
 
 <li data-tags="ai anthropic Claude higher_ed">
-  <p><strong>2025-04-28</strong></p>
+  <p><strong><time datetime="2025-04-28">April 28, 2025</time></strong></p>
   <p><strong><a href="https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude">Anthropic Education Report: How University Students Use Claude</a></strong></p>
   <p>Interesting disciplinary differences, less surprising revelations about students using Claude for higher-order tasks.</p>
   <div class="tags">
@@ -53,7 +53,7 @@ permalink: /quick-links/
 </li>
 
 <li data-tags="academic_technology higher_education">
-  <p><strong>2025-04-14</strong></p>
+  <p><strong><time datetime="2025-04-14">April 14, 2025</time></strong></p>
   <p><strong><a href="https://www.educause.edu/content/2025/students-and-technology-report">2025 Students and Technology Report</a></strong></p>
   <p>Educause's survey of student technology use in higher education.</p>
   <div class="tags">
@@ -64,89 +64,4 @@ permalink: /quick-links/
 
 </ul>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const tags = new Set();
-    const listItems = document.querySelectorAll("#quick-links li");
-
-    // Gather all tags
-    listItems.forEach((li) => {
-      const tagList = li.getAttribute("data-tags").split(" ");
-      tagList.forEach((tag) => tags.add(tag));
-    });
-
-    // Create tag filter UI
-    const filter = document.getElementById("tag-filter");
-    filter.setAttribute("role", "group");
-    filter.setAttribute("aria-label", "Filter links by tag");
-    filter.innerHTML = '<strong id="filter-label">Filter by tag:</strong> ';
-
-    let activeFilter = null;
-
-    tags.forEach((tag) => {
-      const btn = document.createElement("button");
-      btn.textContent = `#${tag}`;
-      btn.className = "tag-button";
-      btn.setAttribute("type", "button");
-      btn.setAttribute("aria-pressed", "false");
-      btn.setAttribute("aria-label", `Filter by ${tag.replace(/_/g, ' ')}`);
-
-      const filterByTag = () => {
-        // Update active filter
-        if (activeFilter === tag) {
-          // Deactivate if clicking same tag
-          activeFilter = null;
-          btn.setAttribute("aria-pressed", "false");
-          listItems.forEach((li) => (li.style.display = ""));
-        } else {
-          // Clear previous active state
-          filter.querySelectorAll(".tag-button").forEach(b => b.setAttribute("aria-pressed", "false"));
-          // Set new active state
-          activeFilter = tag;
-          btn.setAttribute("aria-pressed", "true");
-          listItems.forEach((li) => {
-            const liTags = li.getAttribute("data-tags").split(" ");
-            li.style.display = liTags.includes(tag) ? "" : "none";
-          });
-        }
-      };
-
-      btn.onclick = filterByTag;
-
-      // Keyboard support
-      btn.addEventListener("keydown", (e) => {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          filterByTag();
-        }
-      });
-
-      filter.appendChild(btn);
-    });
-
-    // Add "Show all" button
-    const reset = document.createElement("button");
-    reset.textContent = "Show all";
-    reset.className = "tag-button tag-button-reset";
-    reset.setAttribute("type", "button");
-    reset.setAttribute("aria-label", "Show all links");
-
-    const resetFilter = () => {
-      activeFilter = null;
-      filter.querySelectorAll(".tag-button").forEach(b => b.setAttribute("aria-pressed", "false"));
-      listItems.forEach((li) => (li.style.display = ""));
-    };
-
-    reset.onclick = resetFilter;
-
-    // Keyboard support for reset button
-    reset.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        resetFilter();
-      }
-    });
-
-    filter.appendChild(reset);
-  });
-</script>
+<script src="{{ site.baseurl }}/js/tag-filter.js"></script>

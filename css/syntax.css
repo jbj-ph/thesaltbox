@@ -241,6 +241,58 @@ pre, code { background: #f5f2f0; font-family: monospace; }
   font-size: 0.9rem;
 }
 
+/* 404 Error Page */
+.error-page {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.error-page h1 {
+  font-size: 6rem;
+  color: #268bd2;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.error-page h2 {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.error-page p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.error-links {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.error-links li {
+  margin-bottom: 0.75rem;
+}
+
+.error-links a {
+  color: #268bd2;
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+
+.error-links a:hover {
+  text-decoration: underline;
+}
+
 /* Mobile responsiveness for tags and buttons */
 @media (max-width: 768px) {
   /* Larger touch targets for tag buttons */
