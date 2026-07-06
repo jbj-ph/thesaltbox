@@ -4,9 +4,50 @@ title: Online Writing
 permalink: /writing/
 ---
 
-Criticism, Interviews, and Columns:
+## Academic Writing
+
+Book:
+
+Jones, Jason B. _Lost Causes: Historical Consciousness in Victorian Literature_. Columbus: Ohio State UP, 2006. (If your library has JSTOR you may be able to access it here!)
+
+Edited by: 
+
+Bloom, Harold, and Jason B. Jones, eds. _Charles Dickens_. Bloom's Classic Critical Views. Chelsea House Pub, 2007.
+
+Chapters: 
+
+Jones, Jason B. "Communities of Envy: Psychoanalytic Perspectives on the Virtual Classroom." In Mark J.P. Wolf, ed. _Virtual Morality: Morals, Ethics, & New Media_. New York: Peter Lang, 2003. 97-117.
+
+Jones, Jason B. "Loving Civilization's Discontents: Reich and _Jouissance_." In Tim Dean and Christopher Lane, eds. _Homosexuality & Psychoanalysis_. U of Chicago P, 2001. 168-89.
+
+Jones, Jason B. "The Middlebrow Prophet: Reading the Future of the Modernist Novel in Bennett's Early Criticism." In Gregory F. Tague, ed. _Origins of English Literary Modernism, 1870-1914_. Bethesday: Academica P, 2009. 43-56.
+
+Jones, Jason B. ["There Are No New Directions in Annotations."](https://webwriting.trincoll.edu/chapter/jones/index.html). In Jack Dougherty and Tennyson O'Donnell, eds. [_Web Writing: Why and How for Liberal Arts Teaching and Learning_](https://webwriting.trincoll.edu/). U of Michigan P, 2015. Print also [available](https://press.umich.edu/Books/W/Web-Writing2).
+
+Fitzpatrick, Kathleen, Jason B. Jones, Matthew G. Kirschenbaum, and Amanda French. "Voices: Twitter at Conferences." In Daniel J. Cohen and Tom Scheinfeldt, eds. _Hacking the Academy: New Approaches to Scholarship and Teaching from Digital Humanities_. Ann Arbor: U of Michigan P, 2013. 138-39.
+
+Articles:
+
+Jones, Jason B. ["Betrayed by Time: Steampunk & the Neo-Victorian in Alan Moore's _Lost Girls_ and _The League of Extraordinary Gentlemen_."](https://neovictorianstudies.com/article/view/252). _Neo-Victorian Studies_. 3.1: 2010. 
+
+> **Abstract:** Alan Moore’s neo-Victorian comics Lost Girls (2006) and The League of Extraordinary Gentlemen (1999-) dramatise enigmatic aspects of temporality, narrative, and history. In particular, the steampunk elements of The League of Extraordinary Gentlemen highlight history’s ‘extimate’ quality, neither internal to nor wholly outside the subject. In so doing, they suggest a more conflicted approach to progress and freedom than is usually acknowledged.
+
+Jones, Jason B. "A Date and Time for Swinburne's _The Statue of John Brute_." _Notes and Queries_ 41.3 (September, 1994): 357.
+
+Jones, Jason B. "Revisiting 'Mr. Bennett': Pleasure, Aversion, and the Social in _The Old Wives' Tale_ and _Riceyman Steps_. _English Literature in Transition, 1880-1920_. 46.1: 2003. 29-52.
+
+Jones, Jason B. "The Time of Interpretation: Psychoanalysis and the Past." _Postmodern Culture_ 14.3: May 2004. 
+
+> **Abstract:** Though “deferred action” has entered the theoretical lexicon of the humanities, Lacan’s theory of causality is still poorly understood, as are its implications for interpretation. This essay argues that the return to Freud reveals psychoanalysis to be in the first instance a theory of temporality and history. Against conventional understandings of psychoanalysis as a recovery of the past—the view that the “cure” works because one remembers what “really happened”—Lacan proposes that interpretation works by depleting the analysand’s putative knowledge of the past. Paradoxically, by draining the past of meaning, Lacanian analysis binds us to the work of history. The essay offers a systematic reading of Lacan’s 1950s works on technique, connecting these with later developments to clarify the anti-narrative emphasis in psychoanalytic theory.
 
 
+
+Reports:
+
+Kirk Anne,  et al. ["Building Capacity for Digital Humanities: A Framework for Institutional Planning."](https://library.educause.edu/resources/2017/5/building-capacity-for-digital-humanities-a-framework-for-institutional-planning) Educause/ECAR. 2017.
+
+
+## Popular Criticism, Interviews, and Columns:
 
 Interviews:
 
