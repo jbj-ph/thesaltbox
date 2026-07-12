@@ -9,12 +9,18 @@ title: Welcome to The Salt-Box
     <p class="post-meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
     </p>
-    <div class="post-excerpt">
-      {{ post.excerpt }}
-    </div>
-    <p class="read-more">
-      <a href="{{ post.url | relative_url }}" aria-label="Read full post: {{ post.title }}">Read more →</a>
-    </p>
+    {% if post.category == "threes" %}
+      <div class="post-excerpt">
+        {{ post.content }}
+      </div>
+    {% else %}
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+      </div>
+      <p class="read-more">
+        <a href="{{ post.url | relative_url }}" aria-label="Read full post: {{ post.title }}">Read more →</a>
+      </p>
+    {% endif %}
   </article>
 {% endfor %}
 
