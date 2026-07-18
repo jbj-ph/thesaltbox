@@ -7,15 +7,15 @@ category: threes
 
 ### Books
 
-- Gene Wolfe, *The Shadow of the Torturer* [link](https://amzn.to/4bxg0E7) ✅
-- Zadie Smith, *The Fraud* [link](https://amzn.to/4gyZqqV) ✅
-- Rosamund Stone Zander and Benjamin Zander, *The Art of Possibility: Transforming Professional and Personal Life* [link](https://amzn.to/3QSuRCi)
+- Gene Wolfe, [*The Shadow of the Torturer*](https://amzn.to/4bxg0E7) ✅
+- Zadie Smith, [*The Fraud*](https://amzn.to/4gyZqqV) ✅
+- Rosamund Stone Zander and Benjamin Zander, [*The Art of Possibility: Transforming Professional and Personal Life*](https://amzn.to/3QSuRCi)
 
 ### Songs
 
-- Phoebe Bridgers, *Lost Boys* [link](https://youtu.be/4KXnboPN1p4?si=5YlTOs2XdF8LZfAg)
-- Tim Barry, *W.W. Pool* [link](https://youtu.be/diFNOePcdYg?si=EXAAL4pRYVnvx0-P)
-- KRS-ONE, *What Is the Message?* [link](https://youtu.be/yAVTzOElZzI?si=j572jNC7YPj_HMIk)
+- Phoebe Bridgers, ["Lost Boys"](https://youtu.be/4KXnboPN1p4?si=5YlTOs2XdF8LZfAg)
+- Tim Barry, ["W.W. Pool"](https://youtu.be/diFNOePcdYg?si=EXAAL4pRYVnvx0-P)
+- KRS-ONE, ["What Is the Message?"](https://youtu.be/yAVTzOElZzI?si=j572jNC7YPj_HMIk)
 
 ### Sundries
 

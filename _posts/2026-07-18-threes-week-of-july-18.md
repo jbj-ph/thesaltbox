@@ -7,15 +7,15 @@ category: threes
 
 ### Books
 
-- Thomas Mann, *The Magic Mountain* [link](https://amzn.to/45cF5ke)
-- Andy Weir, *Project Hail Mary* [link](https://amzn.to/4vz2gjt) — Reading this on a Kindle did my head in, because seeing what other people have highlighted in this book in particular isn't great ✅
-- Rosamund & Benjamin Zander, *The Art of Possibility* [link](https://amzn.to/4vI0Wen)
+- Thomas Mann, [*The Magic Mountain*](https://amzn.to/45cF5ke)
+- Andy Weir, [*Project Hail Mary*](https://amzn.to/4vz2gjt) — Reading this on a Kindle did my head in, because seeing what other people have highlighted in this book in particular isn't great ✅
+- Rosamund & Benjamin Zander, [*The Art of Possibility*](https://amzn.to/4vI0Wen)
 
 ### Songs
 
-- The Menzingers, "Everything I Ever Saw" [link](https://youtu.be/oHgndT2M-w4?si=5d4kumngrysLu16S)
-- Kim Petras, "Brutalist" [link](https://youtu.be/OHF1CUuWoCY?si=NiYuzUKxXG9SvVTW)
-- Fiona Apple, "Horns of a Bull" [link](https://youtu.be/D81PYu4DQZA?si=IwROjUWr_xa26Gak)
+- The Menzingers, ["Everything I Ever Saw"](https://youtu.be/oHgndT2M-w4?si=5d4kumngrysLu16S)
+- Kim Petras, ["Brutalist"](https://youtu.be/OHF1CUuWoCY?si=NiYuzUKxXG9SvVTW)
+- Fiona Apple, ["Horns of a Bull"](https://youtu.be/D81PYu4DQZA?si=IwROjUWr_xa26Gak)
 
 ### Sundries
 
